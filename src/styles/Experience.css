@@ -1,0 +1,109 @@
+.experience-section {
+  padding: 80px 20px;
+  background: #111827; /* Different from skills */
+  color: #f3f4f6;
+}
+
+.experience-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.experience-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 60px;
+  color: #38bdf8;
+  font-weight: 700;
+}
+
+/* Timeline Line */
+.timeline {
+  position: relative;
+  padding-left: 30px;
+  border-left: 3px solid #38bdf8;
+}
+
+/* Each Item */
+.timeline-item {
+  position: relative;
+  margin-bottom: 50px;
+  transition: 0.3s ease;
+}
+
+/* Dot */
+.timeline-dot {
+  position: absolute;
+  left: -12px;
+  top: 5px;
+  width: 18px;
+  height: 18px;
+  background: #38bdf8;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.7);
+}
+
+/* Content */
+.timeline-content {
+  background: #1f2937;
+  padding: 25px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.timeline-content:hover {
+  transform: translateX(10px);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+}
+
+.timeline-content h3 {
+  margin-bottom: 5px;
+  color: #38bdf8;
+}
+
+.timeline-content h4 {
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #cbd5e1;
+}
+
+.period {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+.timeline-content ul {
+  padding-left: 18px;
+}
+
+.timeline-content li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #d1d5db;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .experience-title {
+    font-size: 28px;
+  }
+
+  .timeline {
+    padding-left: 20px;
+  }
+
+  .timeline-content {
+    padding: 18px;
+  }
+
+  .timeline-content h3 {
+    font-size: 18px;
+  }
+
+  .timeline-content li {
+    font-size: 13px;
+  }
+}
