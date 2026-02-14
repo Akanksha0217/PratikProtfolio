@@ -11,13 +11,12 @@ import Education from './Components/Education'
 
 
 function App() {
-
   return (
     <>
      <Navbar/>
 
      <div className="main-content">
-    {/* All your sections */}
+
     <Hero />
      <Skills />
      <Experience/>
