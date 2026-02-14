@@ -6,7 +6,7 @@ import Hero from './Components/Hero'
 import Skills from './Components/skillls'
 import Experience from './Components/Experience'
 import Contact from './Components/Contact'
-// import Footer from './Components/Footer'
+
 import Education from './Components/Education'
 
 
@@ -24,7 +24,6 @@ function App() {
      <Education />
       <Contact />
   
-   
   </div>
   
     </>
