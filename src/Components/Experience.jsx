@@ -4,7 +4,7 @@ import "../styles/Experience.css";
 const experienceData = [
   {
     company: "WORLD EMS PVT. LTD. (Gujarat)",
-    role: "Sr. Engineer - IQC",
+    role: "Sr. Engineer - IQC (TV)",
     period: "Apr 2024 – Present",
     description: [
       "Monitoring Quality control of raw materials for LED TV manufacturing.",
@@ -15,7 +15,7 @@ const experienceData = [
   },
   {
     company: "NEXT GENERATION MANUFACTURERS PVT. LTD. (Supa)",
-    role: "Engineer - IQC",
+    role: "Engineer - IQC (TV)",
     period: "March 2023 – Apr 2024",
     description: [
       "Maintained quality system as per IS 2500 standards.",
@@ -25,10 +25,10 @@ const experienceData = [
   },
   {
     company: "Haier Appliances India Pvt. Ltd (Pune)",
-    role: "Graduate Apprentice Trainee (GAT) - IQC",
+    role: "Graduate Apprentice Trainee (GAT) - IQC (TV)",
     period: "March 2022 – March 2023",
     description: [
-      "Incoming Quality Assurance for TV/AC/REF.",
+      "Incoming Quality Assurance for TV.",
       "Electronic part inspection & functional trials.",
       "Plastic moulding defect analysis."
     ]

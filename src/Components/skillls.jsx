@@ -49,7 +49,6 @@ const Skills = () => {
         >
           My Skills
         </motion.h2>
-
         <div className="skills-grid">
           {skillsData.map((item, index) => (
             <motion.div
