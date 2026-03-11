@@ -32,5 +32,3 @@ This project showcases the client’s profile, skills, projects, and contact inf
 - Git & GitHub
 
 ---
-
-## 📂 Project Structure
